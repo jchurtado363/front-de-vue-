@@ -1,5 +1,22 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <PosComponente/>
+    <GetComponente/>
+    
+
   </div>
 </template>
+
+<script>
+import GetComponente from '@/components/GetComponente.vue'
+import PosComponente from '@/components/PosComponente.vue'
+export default {
+  name: 'AboutView',
+  components: {
+    GetComponente,PosComponente
+  }
+}
+</script>
+<style scoped>
+
+</style>
